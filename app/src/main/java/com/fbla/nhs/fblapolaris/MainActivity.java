@@ -17,7 +17,7 @@ import android.view.MenuItem;
 //eat my ass1
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-//eat my ass
+//eat my ass2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
