@@ -14,7 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 //Fuck me in the actual assshole, you fucking cunt
-
+//eat my ass
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 //eat my ass
