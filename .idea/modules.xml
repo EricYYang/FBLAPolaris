@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FBLAPolaris.iml" filepath="$PROJECT_DIR$/FBLAPolaris.iml" />
+      <module fileurl="file://C:\Users\Zach\AndroidStudioProjects\FBLAPolaris\FBLAPolaris.iml" filepath="C:\Users\Zach\AndroidStudioProjects\FBLAPolaris\FBLAPolaris.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Zach\AndroidStudioProjects\FBLAPolaris\app\app.iml" filepath="C:\Users\Zach\AndroidStudioProjects\FBLAPolaris\app\app.iml" />
     </modules>
   </component>
 </project>
