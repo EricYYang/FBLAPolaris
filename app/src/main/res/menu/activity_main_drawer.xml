@@ -5,21 +5,25 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_book_search"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Book Search" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_user_books"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="My Books" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_lib_map"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Map" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_user_account"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_about_polaris"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About Polaris" />
     </group>
 
     <item android:title="Communicate">
