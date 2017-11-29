@@ -1,5 +1,6 @@
 package com.fbla.nhs.fblapolaris;
 
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -79,17 +80,33 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        FragmentManager fragmentmanager = getFragmentManager();
 
         if (id == R.id.nav_book_search) {
-            // Handle the camera action
+            fragmentmanager.beginTransaction()
+                .replace(R.id.content_frame
+                    , new FragmentBookSearch())
+                .commit();
         } else if (id == R.id.nav_user_books) {
-
+            fragmentmanager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new FragmentUserBooks())
+                    .commit();
         } else if (id == R.id.nav_lib_map) {
-
+            fragmentmanager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new FragmentLibMap())
+                    .commit();
         } else if (id == R.id.nav_user_account) {
-
+            fragmentmanager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new FragmentUserAccount())
+                    .commit();
         } else if (id == R.id.nav_about_polaris) {
-
+            fragmentmanager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new FragmentAboutPolaris())
+                    .commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
