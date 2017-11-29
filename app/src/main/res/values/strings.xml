@@ -12,4 +12,6 @@
     <string name="user_account">My Account</string>
     <string name="user_books">My Books</string>
     <string name="search_title">Search</string>
+    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="search_hint">Hint</string>
 </resources>
