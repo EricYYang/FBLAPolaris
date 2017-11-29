@@ -12,5 +12,5 @@
         android:layout_marginLeft="127dp"
         android:layout_marginStart="127dp"
         android:layout_marginTop="161dp"
-        android:text="About Polaris" />
+        android:text="@string/about_polaris"/>
 </RelativeLayout>

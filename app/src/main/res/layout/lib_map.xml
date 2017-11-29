@@ -12,5 +12,5 @@
         android:layout_marginLeft="127dp"
         android:layout_marginStart="127dp"
         android:layout_marginTop="161dp"
-        android:text="Library Map" />
+        android:text="@string/library_map" />
 </RelativeLayout>
