@@ -8,10 +8,12 @@
 
     <string name="about_polaris">About Polaris</string>
     <string name="search">Search</string>
-    <string name="library_map">Library Map</string>
+    <string name="library_map">Map</string>
     <string name="user_account">My Account</string>
     <string name="user_books">My Books</string>
     <string name="search_title">Search</string>
     <string name="title_activity_search_results">SearchResultsActivity</string>
     <string name="search_hint">Hint</string>
+    <string name="title_activity_login">Sign in</string>
+
 </resources>
