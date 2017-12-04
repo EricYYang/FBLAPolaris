@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FBLAPolaris</string>
+    <string name="app_name">Polaris Library Support</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -12,7 +12,7 @@
     <string name="user_account">My Account</string>
     <string name="user_books">My Books</string>
     <string name="search_title">Search</string>
-    <string name="title_activity_search_results">SearchResultsActivity</string>
+    <string name="title_activity_search_results">Search Results Activity</string>
     <string name="search_hint">Hint</string>
     <string name="title_activity_login">Sign in</string>
 
