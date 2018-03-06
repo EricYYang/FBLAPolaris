@@ -1,0 +1,22 @@
+SELECT * FROM dbo.book_info;
+SELECT * FROM dbo.author_id;
+SELECT * FROM dbo.category_id;
+
+SELECT 
+	id				AS 'ID', 
+	isbn			AS 'ISBN', 
+	title			AS 'Title', 
+	author_name		AS 'Author', 
+	category		AS 'Category'
+
+FROM 
+	dbo.author_id, 
+	dbo.book_info, 
+	dbo.category_id 
+
+WHERE 
+	dbo.book_info.author_id = 
+	dbo.author_id.author_id
+AND 
+	dbo.book_info.category_id = 
+	dbo.category_id.category_id;
